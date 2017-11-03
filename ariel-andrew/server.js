@@ -138,7 +138,7 @@ app.delete('/articles', (request, response) => {
     });
 });
 
-// REVIEW: This calls the loadDB() function, defined below.
+// REVIEWED: This calls the loadDB() function, defined below.
 loadDB();
 
 app.listen(PORT, () => {
@@ -149,7 +149,7 @@ app.listen(PORT, () => {
 //////// ** DATABASE LOADERS ** ////////
 ////////////////////////////////////////
 
-// REVIEW: This helper function will load authors into the DB if the DB is empty.
+// REVIEWED: This helper function will load authors into the DB if the DB is empty.
 function loadAuthors() {
   fs.readFile('./public/data/hackerIpsum.json', function(err, fd) {
     JSON.parse(fd.toString()).forEach(function(ele) {
@@ -161,7 +161,7 @@ function loadAuthors() {
   })
 }
 
-// REVIEW: This helper function will load articles into the DB if the DB is empty.
+// REVIEWED: This helper function will load articles into the DB if the DB is empty.
 function loadArticles() {
   client.query('SELECT COUNT(*) FROM articles')
     .then(result => {
@@ -183,7 +183,7 @@ function loadArticles() {
     })
 }
 
-// REVIEW: Below are two queries, wrapped in the loadDB() function, which create separate tables in our DB, and create a relationship between the authors and articles tables.
+// REVIEWED: Below are two queries, wrapped in the loadDB() function, which create separate tables in our DB, and create a relationship between the authors and articles tables.
 // THEN they load their respective data from our JSON file.
 function loadDB() {
   client.query(`
