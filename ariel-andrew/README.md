@@ -1,11 +1,11 @@
-# Code 301 Lab 08 sql intro and postgres
+# Code 301 Lab 09 sql joins relations
 
-**Andrew Bloom, Joe Waine**
+**Andrew Bloom, Ariel Pedraza**
 **Version 1.0.7**
 
 ## Overview
-1. We forked the lab 08 repo for this lab into Andrew's GitHub account. Andrew created a new branch and we started out with Joe navigating and Andrew driving. When we switched roles during pair programming, Joe fetched the working branch and pulled down the changes.
-2. We first reviewed the User Stories and then reviewed the code in order to understand the structure and flow. This was pretty much the entirety of the lab. Next we worked on going through each of the comment sections and completing the commenting as necessary.
+1. We forked the lab 08 repo for this lab into Ariel's GitHub account. Ariel created a new branch and we started out with Andrew navigating and Ariel driving. When we switched roles during pair programming, Andrew fetched the working branch and pulled down the changes.
+2. We first reviewed the User Stories and then reviewed the code in order to understand the structure and flow. Throughout the project we referenced the SQL cheat sheet located in the home repo. We started by working through the todo's in server.js, keeping article.js open split-right for comparison. After working through each of the todo's and reviews, we ran the tests required; they all passed.
 3. Last we worked on updating the README and completing any remaining tasks.
 
 ## Getting Started
@@ -18,4 +18,4 @@ The focus of this lab was reviewing code in server.js to make a server.  Ajax, j
 **No changes currently**
 
 ## Credits and Collaborations
-Based off of the starter code from the Code Fellows 301 lab repo. Using jQuery, Handlebars, highlighting.js, marked.js, and ExpressJS libraries.
+Modified by Andrew Bloom and Ariel Pedraza. Based off of the starter code from the Code Fellows 301 lab repo. Using jQuery, Handlebars, highlighting.js, marked.js, and ExpressJS libraries.
